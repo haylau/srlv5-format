@@ -27,8 +27,7 @@ bool SRLv5Format::isEmptyRow(string row) {
 }
 
 SRLv5Format::SRLv5Format(string inputPath, string outputPath)
-    : inputPath(inputPath), outputPath(outputPath), inputFile(inputPath),
-      outputFile(outputPath, std::ios::trunc) {
+    : inputPath(inputPath), outputPath(outputPath), inputFile(inputPath), outputFile(outputPath, std::ios::trunc) {
   verifyFiles();
 }
 
@@ -70,7 +69,9 @@ void SRLv5Format::convert() {
     Goal g;
     std::getline(parser, g.name, ',');
     while (std::getline(parser, line, ',')) {
-      g.labels.push_back(line);
+      if (!line.empty()) {
+        g.labels.push_back(line);
+      }
     }
     table.at(bucketIdx).push_back(g);
   }
