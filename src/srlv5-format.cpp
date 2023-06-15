@@ -102,7 +102,7 @@ void SRLv5Format::convert() {
       }
       outputFile << "\n";
     }
-    outputFile << "];\nmodule.exports = bingoList;\n";
+    outputFile << "];\n";
   }
   outputFile << "module.exports = bingoList;" << std::endl;
 }
