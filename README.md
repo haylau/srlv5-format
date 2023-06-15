@@ -21,3 +21,8 @@ itemb2,label1,label4,label6
 itemb3,label1,
 itemb4,label2,label3
 ...
+
+# Example
+![image](https://github.com/haylau/srlv5-format/assets/13607064/e48e1add-8a9d-44f0-a070-55c7399157e2)
+![image](https://github.com/haylau/srlv5-format/assets/13607064/b2fc8a25-6375-4ec2-b1a8-ad4fce9b11b3)
+![image](https://github.com/haylau/srlv5-format/assets/13607064/ea6c559b-1377-467a-a576-ae146a046edb)
