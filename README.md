@@ -9,7 +9,7 @@ CSV Format:
 
 Format each bucket as following:
 
-#TODO insert sheet example
+![image](https://github.com/haylau/srlv5-format/assets/13607064/c5263606-f681-47db-b403-0bb4cf275518)
 
 itema1,label1,label2
 itema2,label1,label4
