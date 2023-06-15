@@ -34,3 +34,7 @@ srlv5-format
 
 # VSC 
 .vscode
+
+# Test Files
+*.csv
+*.js
