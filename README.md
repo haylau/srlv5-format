@@ -1,4 +1,4 @@
-![image](https://github.com/haylau/srlv5-format/assets/13607064/65a5740f-5a6d-4675-a993-0800a165c678)# srlv5-format
+# srlv5-format
 converts a csv file into srlv5 format. Used for BingoSync, which can be found here https://github.com/kbuzsaki/bingosync
 
 ## Useage
